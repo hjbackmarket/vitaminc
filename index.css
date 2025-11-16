@@ -3,180 +3,139 @@
     margin: 0;
     box-sizing: border-box;
 }
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
 header{
     background-color: rgba(0, 0, 0, 0.849);
     padding: 10px;
 }
-.logo{
-    font-size: 50px;
-    display: inline-block;
-    width: 25%;
-    color: white;
-    text-shadow: 0px 2px 10px  rgb(255, 255, 255);
-}
-nav{
-    display: inline-block;
-    width: 60%;
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    margin: 95px;
-    color: white;
-    font-size: larger;
-    
-}
-ul li{
-    list-style-type: none;
-    display: inline-block;
-    margin: 20px;
-}
-#btn
-{
-    border: 0;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
-}
-#text-box{
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
-}
-a:hover{
-    text-decoration: none;
-    margin: 95px;
-    color: rgb(0, 255, 221);
-    font-size: larger;
-    background-color: rgb(255, 255, 255) ;
-    padding: 15px;
-    border-radius: 40px;
-    border: 0px;
-    transition: 0.6s;
-    
-}
-.logo{
-    font-size: 50px;
-    display: inline-block;
-    width: 25%;
-    color: white;
-    text-shadow: 0px 2px 10px  rgb(255, 255, 255);
-    cursor: pointer;
+.nav-barr{
+ display: flex;
 
 }
-#btn:hover{
+.nav-bar-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+     color: white;
+}
+.logo{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    color: white;
+}
+.btn{
+    display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+#text-box{
+    height: 27px;
+    border-radius: 30px;
     border: 0;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
-    color: rgb(0, 255, 221);
-    padding: 15px;
-    border-radius:15px;
-    border: 0px;
-    box-sizing: border-box;
-   
 }
-.logo:hover{
-    font-size: 50px;
-    display: inline-block;
-    width: 25%;
-    color: rgb(0, 255, 221);
-    text-shadow: 0px 2px 10px  rgb(255, 255, 255);
-    cursor: pointer;
-    transition: 1s;
+#btn-search{
+    height: 27px;
+    width: 60px;
+    border-radius: 30px;
+    border: 0;
 }
+body{
+  background-image: url(pic/blackhole-space.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 10px;
+}
+
  #card1{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    box-sizing: border-box;
+    border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    /* padding: 20px; */
+    /* display: flex */
+    /* box-sizing: border-box; */
+    
     
     
 }
  #card2{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+      border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
     
 }
  #card3{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+      border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
  #card4{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+     border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
  #card5{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+     border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
  #card6{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+      border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
 #card7{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+     border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
  #card8{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+      border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
  #card9{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+    border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
  #card10{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+    border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    
 }
- #card11{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-}
+
 footer{
     background-image: url(photho/123.jpg.jpg);
     background-position: center;
@@ -184,118 +143,93 @@ footer{
     background-size: cover;
 }
 #card1:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
     transition: 1s;
-    background-color: rgb(255, 255, 255);
-    
-} 
+    box-shadow: 0px 5px 20px 15px #74726a
+     
+}
 #card2:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-    
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card3:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition:0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card4:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card5:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition:0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card6:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition:0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card7:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card8:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card9:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card10:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-} 
-#card11:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-} 
-
-
-
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 
