@@ -25,7 +25,6 @@ header{
 }
 .nav-bar-ul {
     display: flex;
-   
     justify-content: space-between;
     align-items: center;
     list-style: none;
@@ -57,101 +56,86 @@ ul li a{
     border: 0;
 }
 body{
-  background-color: red;
+  background-image: url(pic/blackhole-space.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 10px;
 }
 
- /* #card1{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    box-sizing: border-box;
+ #card1{
+    border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    /* padding: 20px; */
+    /* display: flex */
+    /* box-sizing: border-box; */
+    
     
     
 }
  #card2{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+      border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
     
 }
  #card3{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+      border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
  #card4{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+     border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
  #card5{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+     border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
  #card6{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+      border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
 #card7{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+     border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
  #card8{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+      border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
  #card9{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+    border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
  #card10{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+    border-radius: 60px;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    
 }
- #card11{
-    border-radius: 100px;
-    width: 490px;
-    height: 500px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-}
+
 footer{
     background-image: url(photho/123.jpg.jpg);
     background-position: center;
@@ -159,118 +143,93 @@ footer{
     background-size: cover;
 }
 #card1:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
     transition: 1s;
-    background-color: rgb(255, 255, 255);
-    
-} 
+    box-shadow: 0px 5px 20px 15px #74726a
+     
+}
 #card2:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-    
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card3:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition:0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card4:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card5:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition:0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card6:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition:0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card7:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card8:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card9:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 #card10:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-} 
-#card11:hover{
-    border-radius: 100px;
-    width: 520px;
-    height: 550px;
-    margin: 60px;
-    padding: 20px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: rgb(255, 255, 255);
-} 
+    border-radius: 60px;
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transition: 1s;
+    box-shadow: 0px 5px 20px 15px #74726a;
+     
+}
 
-
-
- */
